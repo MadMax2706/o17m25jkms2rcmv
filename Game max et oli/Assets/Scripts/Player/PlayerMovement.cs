@@ -5,10 +5,12 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 0;
+    private Animator anim;
+
 	
 	void Start ()
     {
-		
+        anim = GetComponent<Animator>();
 	}
 	
 
@@ -24,6 +26,9 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.Translate(new Vector3(0f, Input.GetAxisRaw("Vertical") * moveSpeed * Time.deltaTime, 0f));
         }
+
+        anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
+        anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
 
     }
 
