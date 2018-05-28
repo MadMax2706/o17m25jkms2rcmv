@@ -7,20 +7,8 @@ public class BasicEnemyView : MonoBehaviour
 
     [HideInInspector]
     public bool playerinField = false;
+    [HideInInspector]
     public bool playerExit = false;
-
-    void Start ()
-    {
-		
-	}
-	
-	
-
-	void Update ()
-    {
-		
-	}
-
 
 
     void OnTriggerEnter2D(Collider2D enemyView)

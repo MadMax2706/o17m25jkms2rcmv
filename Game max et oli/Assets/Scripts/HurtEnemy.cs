@@ -24,7 +24,7 @@ public class HurtEnemy : MonoBehaviour
     {
         if(weapon.gameObject.tag == "Enemy")
         {
-            Debug.Log("Enemie toucher");
+           //Debug.Log("Enemie toucher");
         }
 
     }
