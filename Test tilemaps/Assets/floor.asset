@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: test map tiles
+  m_Name: floor
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: 8f1e9984a4df65b4392a9f5edc0d9354, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 07bae30ab57587440bf19c3046d07482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
